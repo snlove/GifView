@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import com.aacer.gifview.R;
 import com.aacer.gifview.customView.MyRecyclerView;
-import com.aacer.gifview.widget.GalleryAdapter;
+import com.aacer.gifview.adapaters.GalleryAdapter;
 
 import java.util.ArrayList;
 import java.util.Arrays;

@@ -118,7 +118,7 @@ public class GifView extends View {
             mMovie.setTime(relTime);
 //            mMovie.draw(canvas, getWidth() - mMovie.width(),
 //                    getHeight() - mMovie.height());
-            canvas.scale(Math.max(rationHeight,rationWidth),Math.min(rationHeight,rationWidth));
+            canvas.scale(Math.min(rationHeight,rationWidth),Math.max(rationHeight,rationWidth));
             mMovie.draw(canvas,0,0);
             invalidate();
         }

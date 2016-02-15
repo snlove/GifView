@@ -251,6 +251,8 @@ public class LoveHeart extends SurfaceView  implements SurfaceHolder.Callback
                 myPaint.setTypeface(Typeface.create(Typeface.SERIF, Typeface.ITALIC));
                 canvas.drawText("小婷，我爱你直到永远", getWidth()/2 -140, getHeight() - 400, myPaint);
 
+
+
             } catch (Exception e) {
 
             }

@@ -1,4 +1,4 @@
-package com.aacer.gifview.widget;
+package com.aacer.gifview.adapaters;
 
 import java.util.List;
 
